@@ -7,6 +7,14 @@ img{
     height: auto;
 }
 
+.logo img{
+    min-width: 200px;
+    max-width: 200px;
+    min-height: auto;
+    max-height: auto;
+    height: auto; 
+}
+
 .conteiner p{
     font-size: 35px;
 }
@@ -17,12 +25,17 @@ img{
     align-items: center;
     background-color: rgba(238, 104, 26, 0.349);
     font-family: 'VT323', monospace;
+    padding: 15px;
 
 }
 
+.aceppt Button{
+    font-size: 25px;
+}
+
+
 .popup{
     width: 400px;
-    height: auto;
     justify-items: center;
     text-align: center;
     border: 2px solid powderblue;
@@ -30,6 +43,45 @@ img{
     margin: 10px;
     font-family: 'VT323', monospace;
 }
+  
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(63, 63, 63);
+    width: 100%;
+    position: absolute;
+    
+}
+
+.menu {
+    list-style: none;
+    margin: 15px;
+    width: 200;
+
+  }
+  
+  .menu li {
+    display: inline;
+    border-radius: 5px;
+    text-align: center;
+    list-style: none;
+    padding: 5px;
+  }
+  
+  .menu li a {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .menu li a:hover {
+    color: #fff;
+    background-color: #333;
+  }
 
 
 
